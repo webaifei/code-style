@@ -99,7 +99,6 @@ npm run eslint:fix
     fi
     done
 
-
 2. 默认.git/hook文件目录下 应该没有pre-commit文件，而是一个pre-commit.sample，重新创建或者修改这个文件名 都可。
 
 3. 注意pre-commit是否有可执行权限,不想深究的话 直接执行
