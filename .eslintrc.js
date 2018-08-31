@@ -1,17 +1,18 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    browser: true,
+    node: true
   },
-  extends: [
-    'plugin:vue/essential',
-    '@vue/airbnb',
-  ],
+  extends: ["plugin:vue/recommended"],
+  plugins: ["prettier"],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    "prettier/prettier": "error",
+    "no-console": "off",
+    "no-debugger": "off"
+    // "import/no-unresolved": 0
   },
   parserOptions: {
-    parser: 'babel-eslint',
-  },
+    parser: "babel-eslint"
+  }
 };
