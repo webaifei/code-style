@@ -6,6 +6,7 @@
   3. 常见的代码最佳实践或者要避免的反模式。
 
 -----
+### 代码风格
 
 |规范分类|示例|主要作用|
 |-----|-----|-----|
@@ -20,8 +21,8 @@
 **使用代码规范的最终目的是提升质量，降低维护成本，如果某些规范违反了目标，删除它~**
 
 
-## 规则
-### 流行的代码风格（基于eslint）
+
+#### 流行的代码风格（基于eslint）
 1. [Airbnb javascript code style](https://github.com/yuche/javascript)
 2. [ESlint rules](https://eslint.org/docs/rules/)
 3. [prettier](https://prettier.io/docs/en/options.html)
@@ -29,7 +30,7 @@
 #### vue项目规则
 1. [eslint-plugin-vue rules](https://github.com/vuejs/eslint-plugin-vue#readme)
 
-## 工具
+#### 工具
 1. eslint
 2. prettier
 3. jshint
@@ -79,7 +80,9 @@
 4. 在package.json中添加eslint命令
   ````
   {
-      "eslint:fix": "eslint src/**  --ext js,vue --fix",
+      scripts: {
+        "eslint:fix": "eslint src/**  --ext js,vue --fix",
+      }
   }
   // 执行npm命令对所有的文件进行check 和 fix
   npm run eslint:fix
