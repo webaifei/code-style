@@ -1,6 +1,6 @@
 ## 代码规范
 
-> 是一套代码书写规则集合。大致分成三个部分，三者之间的界限不是泾渭分明的，可能有有重合的地方。
+> 是一套代码书写规则集合。大致分成三个部分，三者之间的界限不是泾渭分明的，可能有有重合的地方。
   1. 可以格式化的规则
   2. 代码质量规则
   3. 常见的代码最佳实践或者要避免的反模式。
@@ -35,7 +35,7 @@
 3. jshint
 
 ### 如何选择
-选择rules的基于下面两条原则：
+选择rules的基于下面两条原则：
 1. 保证使用代码风格的初衷
 2. 不在具体rule上做无谓的争论，降低使用成本
 
@@ -76,7 +76,7 @@
   npm i eslint babel-eslint eslint-plugin-vue prettier eslint-plugin-prettier -D
 
   ```
-4. 在package.json中添加eslint命令
+4. 在package.json中添加eslint命令
   ````
   {
       "eslint:fix": "eslint src/**  --ext js,vue --fix",
@@ -84,7 +84,7 @@
   // 执行npm命令对所有的文件进行check 和 fix
   npm run eslint:fix
   ````
-5. 将不需要进行eslint check的文件和文件夹添加到 .eslintignore中 进行忽略
+5. 将不需要进行eslint check的文件和文件夹添加到 .eslintignore中 进行忽略
   ```
   # build为项目构建完成的存放地址 对应自己项目的产出目录
   /build/**
@@ -110,9 +110,9 @@
       done
       ```
 
-  2. 默认.git/hook文件目录下 应该没有pre-commit文件，而是一个pre-commit.sample，重新创建或者修改这个文件名 都可。
+  2. 默认.git/hook文件目录下 应该没有pre-commit文件，而是一个pre-commit.sample，重新创建或者修改这个文件名 都可。
 
-  3. 注意pre-commit是否有可执行权限,不想深究的话 直接执行
+  3. 注意pre-commit是否有可执行权限,不想深究的话 直接执行
     ```
     chmod 777 pre-commit
     ```
