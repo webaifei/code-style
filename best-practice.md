@@ -82,7 +82,6 @@
         background-color: red;
       } 
    ```
-
    
    > 除了这种方式 当然你也可以使用 css modules
 
