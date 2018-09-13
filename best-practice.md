@@ -119,6 +119,9 @@
    3. .home .content .buttong
    
    
+   性能和书写方便结合，个人觉得使用scoped的方式 可能比较好
+   
+   
    
    
    
