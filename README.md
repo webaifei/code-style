@@ -6,11 +6,12 @@
 2. 代码质量规则
 3. 常见的代码最佳实践或者要避免的反模式。
 
-
-
 ## 参考资料
+
 * [vue风格指南](https://cn.vuejs.org/v2/style-guide/)
 * [Airbnb JavaScript Style Guide](https://github.com/yuche/javascript)
 * [google javascript code style](https://google.github.io/styleguide/jsguide.html)
 * [why prettier](https://prettier.io/docs/en/why-prettier.html)
+
+
 
