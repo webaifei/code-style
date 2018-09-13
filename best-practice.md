@@ -112,7 +112,7 @@
    ```
    
    性能PK, render tree 的构建非常快，所以基本上我们的样式书写比较随意
-   下面三种写法，理论上的效率排序(css parser的匹配顺序是从右x向左)
+   下面三种写法，理论上的效率排序(css parser的匹配顺序是从右向左)
    
    1. .Home_button_2M_ML
    2. button[data-v-1c4665c]
