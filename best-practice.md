@@ -72,6 +72,13 @@
    > 避免互相样式覆盖 
    
    ```
+      <template>
+         <div class="home"> 
+         //output class="button" data-v-1c4665c3
+            <div class="button"></div>
+         </div>    
+      </template>
+
       <style scoped>
       .button {
         border: none;
@@ -104,6 +111,8 @@
 
    ```
    
+   性能PK, render tree 的构建非常快，所以基本上我们的样式书写比较随意
+    
    
    
    
