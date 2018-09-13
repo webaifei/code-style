@@ -46,6 +46,7 @@
 
 4. 避免 v-if 和 v-for 用在一起
    > 主要原因是v-for的指令优先级比v-if高，导致所有的数据都会遍历。使用computed数据进行缓存
+   
    参见[vue风格指南](https://cn.vuejs.org/v2/style-guide/#%E9%81%BF%E5%85%8D-v-if-%E5%92%8C-v-for-%E7%94%A8%E5%9C%A8%E4%B8%80%E8%B5%B7-%E5%BF%85%E8%A6%81)
 5. 统一风格 属性绑定和事件绑定统一使用一种风格
 
