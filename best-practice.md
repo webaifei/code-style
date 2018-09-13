@@ -69,9 +69,19 @@
    ```
    
 7. 为组件样式设置作用域
-```
-
-
-```
-
-
+   
+   ```
+   <style scoped>
+   .button {
+     border: none;
+     border-radius: 2px;
+   }
+   
+   .button-close {
+     background-color: red;
+   }
+   
+   ```
+   
+   
+   
