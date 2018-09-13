@@ -70,7 +70,6 @@
    
 7. 为组件样式设置作用域
    > 避免互相样式覆盖 
-   除了这种方式 当然你也可以使用 css modules
    
    ```
    <style scoped>
@@ -82,7 +81,22 @@
    .button-close {
      background-color: red;
    }
+      
+   ```
+   > 除了这种方式 当然你也可以使用 css modules   
    
+   ```
+   <style module>
+   .button {
+     border: none;
+     border-radius: 2px;
+   }
+   
+   .button-close {
+     background-color: red;
+   }
+
+
    ```
    
    
