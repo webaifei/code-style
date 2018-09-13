@@ -115,7 +115,7 @@
    下面三种写法，理论上的效率排序(css parser的匹配顺序是从右向左)
    
    1. .Home_button_2M_ML
-   2. .button[data-v-1c4665c]
+   2. .button[data-v-1c4665c]  (注意 请尽量使用 class+属性的组合， 而非 标签+属性的结合)
    3. .home .content .buttong
    
    
