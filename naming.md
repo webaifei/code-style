@@ -3,7 +3,7 @@
 1. 使用大写驼峰或者是中划线命名方式。
     > 两种风格的选择： 建议使用中划线命名方式，原因主要有两点;
     - mac和window系统默认 对文件名大小写不敏感，而linux是文件名大小写敏感，
-    - 已读： input-number vs InputNumber
+    - 可读性： input-number vs InputNumber
 
 2. 命名格式
 
