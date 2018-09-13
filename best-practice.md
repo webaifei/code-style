@@ -67,5 +67,7 @@
       clearInterval(this.countDownTimer);
    }
    ```
+   
+7. 为组件样式设置作用域
 
 
