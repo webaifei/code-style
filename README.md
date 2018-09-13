@@ -1,4 +1,4 @@
-# 代码规范
+## 代码规范
 
 > 是一套代码书写规则集合。大致分成三个部分，三者之间的界限不是泾渭分明的，可能有有重合的地方。
 
@@ -12,6 +12,3 @@
 * [Airbnb JavaScript Style Guide](https://github.com/yuche/javascript)
 * [google javascript code style](https://google.github.io/styleguide/jsguide.html)
 * [why prettier](https://prettier.io/docs/en/why-prettier.html)
-
-
-
