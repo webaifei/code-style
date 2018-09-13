@@ -87,6 +87,7 @@
 
    ```
       <template>
+         //output class="Home_button_2M_ML"
          <div :class="$style.button"></div>
       </template>
       <style module>
