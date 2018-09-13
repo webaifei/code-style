@@ -19,5 +19,10 @@
   "homepage": "https://github.com/webaifei/code-style-test#readme",
   "devDependencies": {
     "gh-pages": "^1.2.0"
+  },
+  "dependencies": {
+    "gitbook-plugin-theme-blue": "^1.0.18",
+    "gitbook-plugin-theme-comscore": "0.0.3",
+    "gitbook-plugin-theme-faq": "^1.2.1"
   }
 }
