@@ -50,9 +50,15 @@
    参见[vue风格指南](https://cn.vuejs.org/v2/style-guide/#%E9%81%BF%E5%85%8D-v-if-%E5%92%8C-v-for-%E7%94%A8%E5%9C%A8%E4%B8%80%E8%B5%B7-%E5%BF%85%E8%A6%81)
    
 5. 统一风格 属性绑定和事件绑定统一使用一种风格
-
+   > 主要考虑两点，少些代码，统一风格
    * v-bind v-on
    * :   @
+   ```
+   // bad
+   <div v-bind:style="{}" @click="clickHanle"></div>
+   // good
+   <div :style="{}" @click="clickHanle"></div>
+   ```
 
 6. 在destroyed生命周期中 销毁变量和清除定时器等操作。
 
