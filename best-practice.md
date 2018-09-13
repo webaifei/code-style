@@ -63,7 +63,9 @@
 6. 在destroyed生命周期中 销毁变量和清除定时器等操作。
    > 避免潜在的bug和无用代码执行
    ```
-   
+   destroyed() {
+      clearInterval(this.countDownTimer);
+   }
    ```
 
 
