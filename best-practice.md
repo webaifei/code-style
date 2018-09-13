@@ -86,7 +86,9 @@
    > 除了这种方式 当然你也可以使用 css modules
 
    ```
-
+      <template>
+         <div :class="$style.button"></div>
+      </template>
       <style module>
       .button {
         border: none;
