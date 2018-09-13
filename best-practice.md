@@ -83,7 +83,7 @@
    }
       
    ```
-   
+   ----
    > 除了这种方式 当然你也可以使用 css modules   
 
       
@@ -97,7 +97,6 @@
    .button-close {
      background-color: red;
    }
-
 
    ```
    
