@@ -1,0 +1,30 @@
+{
+    "name": "code-style",
+    "version": "1.0.0",
+    "description": "> 是一套代码书写规则集合。大致分成三个部分，三者之间的界限不是泾渭分明的，可能有有重合的地方。",
+    "main": "index.js",
+    "scripts": {
+        "prepublish": "gitbook build",
+        "publish": "node build/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/webaifei/code-style-test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/webaifei/code-style-test/issues"
+    },
+    "homepage": "https://github.com/webaifei/code-style-test#readme",
+    "devDependencies": {
+        "gh-pages": "^1.2.0"
+    },
+    "dependencies": {
+        "gitbook-plugin-disqus": "^0.1.0",
+        "gitbook-plugin-theme-blue": "^1.0.18",
+        "gitbook-plugin-theme-comscore": "0.0.3",
+        "gitbook-plugin-theme-faq": "^1.2.1"
+    }
+}
