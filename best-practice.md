@@ -72,16 +72,16 @@
    > 避免互相样式覆盖 
    
    ```
-   <style scoped>
-   .button {
-     border: none;
-     border-radius: 2px;
-   }
-   
-   .button-close {
-     background-color: red;
-   } 
-
+      <style scoped>
+      .button {
+        border: none;
+        border-radius: 2px;
+      }
+      
+      .button-close {
+        background-color: red;
+      } 
+   ```
 
    
    > 除了这种方式 当然你也可以使用 css modules   
