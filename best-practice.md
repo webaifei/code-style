@@ -89,15 +89,15 @@
 
    ```
 
-   <style module>
-   .button {
-     border: none;
-     border-radius: 2px;
-   }
-   
-   .button-close {
-     background-color: red;
-   }
+      <style module>
+      .button {
+        border: none;
+        border-radius: 2px;
+      }
+      
+      .button-close {
+        background-color: red;
+      }
 
    ```
    
