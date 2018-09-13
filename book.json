@@ -1,4 +1,10 @@
 {
     "plugins": [
-    ]
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "https-webaifei-github-io-code-style"
+        }
+    }
 }
