@@ -11,12 +11,38 @@
    }
    ```
 
-2. v-for添加key
+2. v-for添加key  
+   > 避免潜在的性能风险， 让diff算法能够有效的执行
+  ```
+  // bad
+  <todo-item v-for="item in todos">
+     {{todo.name}}
+  </todo-item>
+  // not good
+  <todo-item 
+     :key="index" v-for="(item, index) in todos">
+     {{todo.name}}
+  </todo-item>
+  // better
+   <todo-item
+   :key="item.id" v-for="item in todos">
+      {{todo.name}}
+   </todo-item>
+  ```
 
 3. Prop 定义应该尽量详细
+   
+   ```
+      props: {
+         title: {
+            type: "String",
+            default: "this is a title"
+         }
+      }
+   ```
 
 4. 避免 v-if 和 v-for 用在一起
-
+   
 5. 统一风格 属性绑定和事件绑定统一使用一种风格
 
    * v-bind v-on
