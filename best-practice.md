@@ -13,6 +13,7 @@
 
 2. v-for添加key  
    > 避免潜在的性能风险， 让diff算法能够有效的执行
+   
   ```
   // bad
   <todo-item v-for="item in todos">
