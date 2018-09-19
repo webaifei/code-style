@@ -34,7 +34,7 @@
    </todo-item>
    ```
 
-   原理：给出连接
+   原理: [diff algorithm](https://reactjs.org/docs/reconciliation.html#component-elements-of-the-same-type "diff algorithm")
 
 3. Prop 定义应该尽量详细
 
